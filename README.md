@@ -1,4 +1,10 @@
-Carmelo is a fast, scalable Java server framework designed for online games. It uses [Netty](http://netty.io/) and [Fastjson](https://github.com/alibaba/fastjson) for highly efficient network transmission and supports multiple protocols. It also uses [Spring](https://spring.io/) for business logic and [Hibernate](http://hibernate.org/orm/) for data persistence. This framework implements its own servlet to handle client requests, so you can easily extend it to build your own server. 
+Carmelo是基于Java的游戏服务端框架，适合于页游和手游。它的主要特点是：
+
+利用Netty实现高效的NIO通信，同时支持TCP/HTTP协议
+完善的三层架构模型，易扩展
+通用、完善的session管理机制，无需从头实现
+提供了完整的server/client demo，可以作为很好的开发参考
+提供较多游戏开发常用的工具类（后面准备陆续加入）
 
 
 
